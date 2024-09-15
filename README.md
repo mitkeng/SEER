@@ -8,19 +8,28 @@
 <br />
 <br />
 #
-### Introduction
+### **Introduction**
 S∈∈R (Site Ensemble Energy Recognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of the gas phase major equilibrium charge state. The goal of S∈∈R is to accurately predict a favorable charge state (with residual ranked candidate charge states available as backup) so to effectively remove gross workload and computational cost that goes into charge modeling systems with numerous titratable sites. The program supports mass spectrometry relevant $[M-H]^-$ and $[M+H]^+$ charge modes.
-<br />
-<br />
+
+
+
 #
-### Specifications
+### **Specifications**
 Currently our model supports only oxygen and nitrogen for proton donating or proton acccepting atoms. Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems with these atoms.
-<br />
-<br />
+
 
 
 #
-### Additional Information
+### **Functionalities**
+
+-   #### Rank charge sites
+-   #### Predict equilibrium charge state
+-   #### Auto generate $[M+H]^+$ or  $[M-H]^-$ structure
+-   #### Superficial geometry optimization
+-   #### Compute model relative energy score
+
+#
+### **Additional Information**
 #### Input xyz file format:
 ```twig
 32               <--- number of atoms
