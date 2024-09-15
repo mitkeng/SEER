@@ -15,7 +15,7 @@ S∈∈R (Site Ensemble Energy Recognition) is a hybrid knowledge-based machine 
 
 #
 ### **Specifications**
-Currently our model supports only oxygen and nitrogen for proton donating or proton acccepting atoms. Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems with these atoms.
+Currently, S∈∈R supports only oxygen and nitrogen for proton donating or proton acccepting atoms. Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems with these atoms.
 
 
 
