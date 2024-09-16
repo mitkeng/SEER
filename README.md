@@ -86,7 +86,7 @@ O            -1.0129584200000           6.4259498300000          -1.309623820000
 
 #
 ### **Disclaimer and Remarks**
-All data use in this ML model development was generated inhouse. It is a best practice and recommended that an input structure and an output structure be visually compared to ensure that the original molecular integrity, other than the protonation or deprotonation site, is preserved.  
+All data used in this ML model development was generated inhouse. Foreign modules implemented include [YDF](https://ydf.readthedocs.io/en/stable/) Decision Forests API and [ANI-2x](https://xacs.xmu.edu.cn/docs/mlatom/tutorial_geomopt.html) API. It is a best practice and recommended that an input structure and an output structure be visually compared to ensure that the original molecular integrity, other than the protonation or deprotonation site, is preserved.  
 
 #
 ### Acknowledgement 
