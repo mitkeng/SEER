@@ -22,11 +22,11 @@ Currently, S∈∈R supports only oxygen and nitrogen as the proton donating or 
 #
 ### **Functionalities**
 
--   #### Rank charge sites
--   #### Predict equilibrium charge state
--   #### Auto generate $[M+H]^+$ or  $[M-H]^-$ structure
--   #### Soft geometry optimization
--   #### Compute model relative energy score
+-    Rank charge sites
+-    Predict equilibrium charge state
+-    Auto generate $[M+H]^+$ or  $[M-H]^-$ structure
+-    Soft geometry optimization
+-    Compute model relative energy score
 
 #
 ### **Requirements**
