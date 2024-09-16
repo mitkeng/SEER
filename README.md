@@ -13,6 +13,7 @@ S∈∈R (Site Ensemble Energy Recognition) is a hybrid knowledge-based machine 
 
 The ensembles of molecular ions used to train S∈∈R have been geometry optimized using the quantum mechanical density functional theory D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p). The accuracy of our previously predicted gas phase molecular ions (used in the training) were asssessed and screened by comparing their computed collision cross section values against experimental (ion mobility mass spetrometry) reference values. 
 
+The S∈∈R advantages include high results turnaround time, good generalizability, competitive accuracy, and an exceptional user-friendly interface within the chemical modeling niche.
 #
 ### **Specifications**
 Currently, S∈∈R supports only oxygen and nitrogen as the proton donating or proton acccepting atoms, thus protonation or deprotonation elsewhere is completely absent in training. Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems with these atoms.
