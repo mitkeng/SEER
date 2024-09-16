@@ -11,7 +11,7 @@
 ### **Introduction**
 S∈∈R (Site Ensemble Energy Recognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of the gas phase major equilibrium charge state. The objective of S∈∈R is to accurately predict a favorable charge state (with residual ranked candidate charge states available as auxiliary) for a given molecule so as to effectively eliminate gross workload and computational cost that goes into charge modeling any system with numerous titratable sites. This program is appropriate for modeling mass spectrometry $[M-H]^-$ and $[M+H]^+$ charge modes.
 
-The ensembles of molecular ions used to train S∈∈R have been geometry optimized using the quantum mechanical density functional D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p) level of theory. The accuracy of our previously predicted gas phase molecular ions (used in the training) were asssessed and screened by comparing their computed collision cross section values against experimental (ion mobility mass spetrometry) reference values. 
+The ensembles of molecular ions used to train S∈∈R have been geometry optimized using the quantum mechanical density functional theory D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p). The accuracy of our previously predicted gas phase molecular ions (used in the training) were asssessed and screened by comparing their computed collision cross section values against experimental (ion mobility mass spetrometry) reference values. 
 
 #
 ### **Specifications**
