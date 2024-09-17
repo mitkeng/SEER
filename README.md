@@ -88,7 +88,7 @@ O            -1.0129584200000           6.4259498300000          -1.309623820000
 ### **Disclaimer and Remarks**
 All data used in this ML model development was generated inhouse. Notable foreign applications implemented include the [YDF](https://ydf.readthedocs.io/en/stable/) Decision Forests API and the [ANI-2x](https://xacs.xmu.edu.cn/docs/mlatom/tutorial_geomopt.html) API. 
 
-Although only "soft" geometry optimization is carried out, it is a best practice and recommended that an input structure and an output structure be visually compared to ensure that the original molecular integrity, other than a change in the protonation or deprotonation site, is preserved.  
+Although only "soft" geometry optimization is carried out, it is a best practice and recommended that an input structure and an output structure be visually compared to ensure that the original molecular integrity, other than a change at the protonation or deprotonation site, is preserved.  
 
 #
 ### Acknowledgement 
