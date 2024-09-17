@@ -30,7 +30,7 @@ Currently, S∈∈R supports only oxygen and nitrogen as the proton donating or 
 
 #
 ### **Requirements**
-Access to Google Colab is required to run S∈∈R in its intended form. An input file must be in xyz format (see the Additional Information section) and a neutral molecule as input is preferred.
+Access to Google Colab is required to run S∈∈R in its intended form. A neutral molecule input file must be in xyz format (see the Additional Information section).
 
 #
 ### **Additional Information**
