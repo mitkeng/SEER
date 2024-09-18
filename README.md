@@ -88,7 +88,7 @@ O            -1.0129584200000           6.4259498300000          -1.309623820000
 
 #
 ### **Disclaimer and Remarks**
-All data used in this ML model development was generated inhouse. We do not intend to make publically available any original quantum mechanical data pertaining to the DFT geometry optimization and single point energy calculation, unless reasonably requested. Results may vary significantly from pKa-based methods since 1) pKa is not considered in the training and 2) the target is gas phase.
+All data used in this ML model development was generated inhouse. We do not intend to make publically available any original quantum mechanical data pertaining to the DFT geometry optimization and single point energy calculation, unless reasonably requested. S∈∈R results may differ significantly from pKa-based methods since 1) pKa is not considered in the training and 2) the target is gas phase.
 
 Notable foreign applications implemented include the [YDF](https://ydf.readthedocs.io/en/stable/) Decision Forests API and the [ANI-2x](https://xacs.xmu.edu.cn/docs/mlatom/tutorial_geomopt.html) API. 
 
