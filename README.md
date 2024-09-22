@@ -64,8 +64,8 @@ O          0.39650        5.14920        1.22310
 
 #### S∈∈R output xyz file for $[M+H]^+$:
 ```twig
-33                 <--- number of atoms
-model_energy_-xxx  <--- state energy
+33                   <--- number of atoms
+model_energy_-963.90 <--- state energy
 C          1.05953          0.66186          0.43596
 N          0.52345         -0.51138         -0.04995
 H          1.15112         -1.27216         -0.28706
