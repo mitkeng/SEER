@@ -29,7 +29,6 @@ Although the ANI-2x geometry optimization use in S∈∈R supports only the atom
 -    Auto generate $[M+H]^+$ or  $[M-H]^-$ structure
 -    Soft geometry optimization
 -    Compute model relative energy score
--    Preliminary state distribution 
 
 #
 ### **Requirements**
