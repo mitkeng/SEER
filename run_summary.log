@@ -8,14 +8,16 @@ __________________________________________________
        '''    ''.          ''.         |||   \ \ 
  ∈∈∈∈∈::'      ':∈∈∈∈∈∈     ':∈∈∈∈∈∈   |||    \ \ 
 
-   Site        Ensemble      Energy    Recognition
+   State      Ensemble      Energy     Recognition
 __________________________________________________
 ==================================================
 S∈∈R:           Model MK1.0            09-Sep-2024
 ==================================================
+Documentation Page:
+https://github.com/mitkeng/SEER
 
 
-Cite this program as:
+To cite this work use:
 S∈∈R Version 1.0,
 M. Keng and K. M., Jr. Merz, 2024
 
