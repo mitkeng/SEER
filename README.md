@@ -92,7 +92,9 @@ O         -1.01295          6.42594         -1.30962
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1ZtiIGWc7I5Gd_Qvn5nVF17pNNTsU68Ie?usp=sharing) <code style="color : grey">to access the S∈∈R platform</code>
 <br />
 
-
+#
+### **Limitation**
+Titratable sites for protonation or deprotonation are limited to nitrogen and oxygen; all other atom types are completely neglected. 
 
 #
 ### **Disclaimer and Remarks**
