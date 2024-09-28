@@ -17,7 +17,7 @@ The S∈∈R advantages include high results turnaround time, good generalizabil
 
 #
 ### **Specifications**
-Currently, S∈∈R supports only oxygen and nitrogen as the proton donating or proton acccepting atoms, thus protonation or deprotonation elsewhere is completely absent in training. 
+Currently, S∈∈R supports biomolecules and small molecules with commonly observed oxygen and nitrogen as the proton donating or proton acccepting atoms, thus protonation or deprotonation elsewhere is completely absent in training. 
 
 Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems containing these atoms.
 
