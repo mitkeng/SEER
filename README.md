@@ -13,7 +13,7 @@ S∈∈R (**S**tate **E**nsemble **E**nergy **R**ecognition) is a hybrid knowled
 
 The ensembles of molecular ions used to train S∈∈R have been geometry optimized using the quantum mechanical density functional theory D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p). The accuracy of our previously predicted gas phase molecular ions (used in the training) was asssessed and screened by comparing computed collision cross section values against experimental (ion mobility mass spectrometry) reference values. 
 
-The S∈∈R advantages include high results turnaround time, good generalizability, competitive accuracy, and an exceptional user-friendly interface within the chemical modeling niche. Additionally, S∈∈R can be seemlessly integrated into a larger *in silico* workflow.
+The S∈∈R advantages include high results turnaround time, good generalizability, competitive accuracy, no structural artifact, and an exceptional user-friendly interface within the chemical modeling niche. Additionally, S∈∈R can be seemlessly integrated into a larger *in silico* workflow.
 
 #
 ### **Specifications**
