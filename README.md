@@ -17,7 +17,7 @@ The S∈∈R advantages include high results turnaround time, good generalizabil
 
 #
 ### **Benefits**
--  High results turnaround time
+-  High turnaround time
 -  Unambiguous results
 -  Good generalizability
 -  Competitive accuracy
