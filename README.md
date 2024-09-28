@@ -16,6 +16,15 @@ The ensembles of molecular ions used to train S∈∈R have been geometry optimi
 The S∈∈R advantages include high results turnaround time, good generalizability, competitive accuracy, no structural artifacts, and an exceptional user-friendly interface within the chemical modeling niche. Additionally, S∈∈R can be seemlessly integrated into a larger *in silico* workflow.
 
 #
+### **Benefits**
+-  High results turnaround time
+-  Good generalizability
+-  Competitive accuracy
+-  No structural artifacts
+-  User-friendly interface
+-  Seemless workflow integration
+
+#
 ### **Specifications**
 Currently, S∈∈R supports biomolecules and small molecules with commonly observed oxygen and nitrogen as the proton donating or proton acccepting atoms, thus protonation or deprotonation elsewhere is completely absent in training. 
 
