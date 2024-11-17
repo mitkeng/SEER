@@ -1,12 +1,16 @@
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) ![user](https://img.shields.io/badge/GoogleColab-grey?style=flat&logo=googlecolab) ![user](https://img.shields.io/badge/Chemodeling-App-yellow?) ![user](https://img.shields.io/badge/Userfriend-1.0-sgreen?) 
-Original art intended for publication.
+
 
 # S∈∈R: Gas Phase Molecular Charge State Predictor
 
 
-<br /><img align = "center" width="700" alt="focus" src="https://github.com/user-attachments/assets/917ed8d7-1fee-4ec8-b81c-546e331edf75">
+<br /><img align = "center" width="700" alt="focus" src="https://github.com/user-attachments/assets/917ed8d7-1fee-4ec8-b81c-546e331edf75"> 
+
+*Original art work reserved for future publication.
+
 <br />
 <br />
+
 #
 ### **Introduction**
 S∈∈R (**S**tate **E**nsemble **E**nergy **R**ecognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of a gas phase major equilibrium charge state. The objective of S∈∈R is to accurately assign a minimum energy charge state (with residually higher energy ranked candidate charge states available as auxiliary models) for a given molecule so as to effectively eliminate gross workload and computational cost that can arise from charge modeling any system with numerous titratable sites. This program is appropriate for modeling mass spectrometry $[M-H]^-$ and $[M+H]^+$ charge modes.
