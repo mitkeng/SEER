@@ -1,14 +1,7 @@
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) ![user](https://img.shields.io/badge/GoogleColab-grey?style=flat&logo=googlecolab) ![user](https://img.shields.io/badge/Chemodeling-App-yellow?) ![user](https://img.shields.io/badge/Userfriend-1.0-sgreen?) 
 
-
 # S∈∈R: Gas Phase Molecular Charge State Predictor
-
-
-<br /><img align = "center" width="700" alt="focus" src="https://github.com/user-attachments/assets/917ed8d7-1fee-4ec8-b81c-546e331edf75"> 
-
-
-<br />
-<br />
+<br /><img align = "center" width="750" alt="focus" src="https://github.com/user-attachments/assets/2249387c-b712-4193-9340-687a0500ca54"> 
 
 #
 ### **Introduction**
