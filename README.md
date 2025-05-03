@@ -93,7 +93,7 @@ O         -1.01295          6.42594         -1.30962
 
 #
 ### Accessibility
- [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">]() <code style="color : grey">access to the S∈∈R platform is pending publication</code>
+ [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1VMEFONXIVKnfT50RKcwH1UTulZR4a7F7?usp=sharing) <code style="color : grey">access to the S∈∈R Application</code>
 <br />
 
 #
