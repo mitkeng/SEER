@@ -107,6 +107,12 @@ All data used in this ML model development was generated inhouse. We do not inte
 
 Although only "soft" geometry optimization is carried out, it is a best practice and recommended that an input structure and an output structure be visually compared to ensure that the original molecular integrity, other than a change at the protonation or deprotonation site, is preserved.  
 
+
+#
+### Literature
+In peer review.
+
+
 #
 ### Acknowledgement 
 -   [Merz research group](https://github.com/merzlab) 
