@@ -109,8 +109,9 @@ Although only "soft" geometry optimization is carried out, it is a best practice
 
 
 #
-### Literature
-In peer review.
+### Literature Citation
+Software can be cited at:
+https://doi.org/10.1021/acs.jcim.5c00980
 
 
 #
