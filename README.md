@@ -111,7 +111,7 @@ Although only "soft" geometry optimization is carried out, it is a best practice
 #
 ### Literature Citation
 Software can be cited at:
-https://doi.org/10.1021/acs.jcim.5c00980
+https://pubs.acs.org/action/showCitFormats?doi=10.1021/jasms.5c00078
 
 
 #
