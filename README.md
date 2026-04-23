@@ -5,7 +5,7 @@
 
 #
 ### **Introduction**
-S∈∈R (**S**tate **E**nsemble **E**nergy **R**ecognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of a gas phase "global" minimum energy charge state. The objective of S∈∈R is to accurately assign a minimum energy charge state (with residually higher energy ranked candidate charge states available as auxiliary models) for a given molecule so as to effectively eliminate gross workload and computational cost that can arise from charge modeling any system with numerous titratable sites. This program is appropriate for modeling mass spectrometry $[M-H]^-$ and $[M+H]^+$ charge modes.
+SEER (**S**tate **E**nsemble **E**nergy **R**ecognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of a gas phase "global" minimum energy charge state. The objective of S∈∈R is to accurately assign a minimum energy charge state (with residually higher energy ranked candidate charge states available as auxiliary models) for a given molecule so as to effectively eliminate gross workload and computational cost that can arise from charge modeling any system with numerous titratable sites. This program is appropriate for modeling mass spectrometry $[M-H]^-$ and $[M+H]^+$ charge modes.
 
 The ensembles of molecular ions used to train S∈∈R have been geometry optimized using the quantum mechanical density functional theory D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p). The accuracy of our previously predicted gas phase molecular ions (used in the training) was asssessed and screened by comparing computed collision cross section values against experimental ion mobility mass spectrometry reference values. 
 
@@ -21,7 +21,7 @@ The ensembles of molecular ions used to train S∈∈R have been geometry optimi
 
 #
 ### **Specifications**
-Currently, S∈∈R supports biomolecules and small molecules with commonly observed oxygen and nitrogen as the proton donating or proton acccepting atoms. 
+Currently, SEER supports biomolecules and small molecules with commonly observed oxygen and nitrogen as the proton donating or proton acccepting atoms. 
 
 Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems containing these atoms.
 
@@ -156,7 +156,7 @@ O         -1.01295          6.42594         -1.30962
 
 #
 ### Web Application Option
- [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1y_HLGZmNA2OW4QB8vutjo2n1UqJNa6vo?usp=sharing) <code style="color : grey">access to the S∈∈R Application</code>
+ [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1y_HLGZmNA2OW4QB8vutjo2n1UqJNa6vo?usp=sharing) <code style="color : grey">access to the SEER Application</code>
 <br />
 
 #
@@ -165,7 +165,7 @@ Titratable sites for protonation or deprotonation are limited to nitrogen and ox
 
 #
 ### **Disclaimer and Remarks**
-All data used in this ML model development was generated inhouse. We do not intend to make publically available any original quantum mechanical data pertaining to the DFT geometry optimization and single point energy calculation, unless reasonably requested. S∈∈R results may differ significantly from pKa-based methods since 1) pKa is not considered in the training and 2) the target is gas phase.
+All data used in this ML model development was generated inhouse. We do not intend to make publically available any original quantum mechanical data pertaining to the DFT geometry optimization and single point energy calculation, unless reasonably requested. SEER results may differ significantly from pKa-based methods since 1) pKa is not considered in the training and 2) the target is gas phase.
 
 
 Although only "soft" geometry optimization is carried out, it is a best practice and recommended that an input structure and an output structure be visually compared to ensure that the original molecular integrity, other than a change at the protonation or deprotonation site, is preserved.  
