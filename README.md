@@ -5,9 +5,9 @@
 
 #
 ### **Introduction**
-SEER (**S**tate **E**nsemble **E**nergy **R**ecognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of a gas phase "global" minimum energy charge state. The objective of S∈∈R is to accurately assign a minimum energy charge state (with residually higher energy ranked candidate charge states available as auxiliary models) for a given molecule so as to effectively eliminate gross workload and computational cost that can arise from charge modeling any system with numerous titratable sites. This program is appropriate for modeling mass spectrometry $[M-H]^-$ and $[M+H]^+$ charge modes.
+SEER (**S**tate **E**nsemble **E**nergy **R**ecognition) is a hybrid knowledge-based machine learning program for ranking molecular charge sites and subsequent prediction of a gas phase "global" minimum energy charge state. The objective of SEER is to accurately assign a minimum energy charge state (with residually higher energy ranked candidate charge states available as auxiliary models) for a given molecule so as to effectively eliminate gross workload and computational cost that can arise from charge modeling any system with numerous titratable sites. This program is appropriate for modeling mass spectrometry $[M-H]^-$ and $[M+H]^+$ charge modes.
 
-The ensembles of molecular ions used to train S∈∈R have been geometry optimized using the quantum mechanical density functional theory D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p). The accuracy of our previously predicted gas phase molecular ions (used in the training) was asssessed and screened by comparing computed collision cross section values against experimental ion mobility mass spectrometry reference values. 
+The ensembles of molecular ions used to train SEER have been geometry optimized using the quantum mechanical density functional theory D3BJ-B3LYP/6-31G(d,p) or D3BJ-B3LYP/6-31+G(d,p). The accuracy of our previously predicted gas phase molecular ions (used in the training) was asssessed and screened by comparing computed collision cross section values against experimental ion mobility mass spectrometry reference values. 
 
 #
 ### **Benefits**
@@ -23,7 +23,7 @@ The ensembles of molecular ions used to train S∈∈R have been geometry optimi
 ### **Specifications**
 Currently, SEER supports biomolecules and small molecules with commonly observed oxygen and nitrogen as the proton donating or proton acccepting atoms. 
 
-Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend S∈∈R applicability to systems containing these atoms.
+Although the ANI-2x geometry optimization use in S∈∈R supports only the atom types H, C, N, O, F, Cl, and S, we run surrogate-optimization for the atom types P, Se, Br, and I to extend SEER applicability to systems containing these atoms.
 
 #
 ### **Functionalities**
