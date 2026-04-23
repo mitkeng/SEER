@@ -155,7 +155,7 @@ O         -1.01295          6.42594         -1.30962
 
 
 #
-### Accessibility
+### Web Application Option
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1y_HLGZmNA2OW4QB8vutjo2n1UqJNa6vo?usp=sharing) <code style="color : grey">access to the S∈∈R Application</code>
 <br />
 
