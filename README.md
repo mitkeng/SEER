@@ -36,42 +36,70 @@ Although the ANI-2x geometry optimization use in S∈∈R supports only the atom
 
 #
 
-### **SEER Workflow User Guide**
+# <p align="center">🧬 SEER Workflow Documentation</p>
 
-#### **Step 1: Installation**
-First, execute the installation script to set up the environment:
+---
+## 🛠 Setup & Installation
+
+### **01. Environment Initialization**
+Initialize the system by executing the core installation script:
 ```bash
 bash install_seer.sh
 ```
-**Note:** Google Colab will restart the session. After the restart, you must install the PyMOL bundle via Mamba to complete the setup:
+
+> [!IMPORTANT]
+> **Colab Session Restart Required:** The environment will automatically restart. Once reconnected, deploy the PyMOL dependency via the Mamba package manager:
+
 ```bash
 !mamba install -c schrodinger pymol-bundle --yes
 ```
 
-#### **Step 2: Download Required Resources**
-Run the following commands to download the necessary datasets and trained models:
+---
+
+## 🛰 Resource Acquisition
+
+### **02. Models Retrieval**
+Satisfy local directory with required pre-trained neural models:
+
 ```bash
-!wget https://raw.githubusercontent.com/rdkit/rdkit/master/Docs/Book/data/cdk2.sdf
+# Pre-trained Models
 !wget https://github.com/mitkeng/SEER/raw/refs/heads/main/models/seer_neg_model.zip
 !wget https://github.com/mitkeng/SEER/raw/refs/heads/main/models/seer_pos_model.zip
 ```
 
-#### **Step 3: Execution**
-You can run the SEER workflow using `seer.py`. Provide a SMILES string, a project name, and the ion mode.
+---
 
-**Example Command:**
+## ⚡ Execution
+
+### **03. Running the Workflow**
+Invoke the `seer.py` engine by providing the SMILES string and ion configuration.
+
 ```bash
 !python seer.py --smiles "CNC[C@@H](C1=CC(=C(C=C1)O)O)O" --name adrenaline --mode "[M+H]+"
 ```
 
-**Arguments:**
-- `--smiles`: The SMILES string of your target molecule.
-- `--name`: The name for your output folder.
-- `--mode`: (Optional) `[M+H]+` for positive mode or `[M-H]-` for negative mode.
+#### **Parameter Specification**
 
-#### **Step 4: Results**
-Results are saved in `Completed_Job/[molecule_name]/`, including optimized 3D protomers, an energy ranking summary (`final_ranking_summary.csv`), and a filtering report (`summary.txt`).
 
+| Argument | Definition | Requirements |
+| :--- | :--- | :--- |
+| `--smiles` | Target molecule identifier | Valid SMILES string |
+| `--name` | Project identifier | Output directory name |
+| `--mode` | Ionization mode (Optional) | `[M+H]+` (Pos) or `[M-H]-` (Neg) |
+
+---
+
+## 📊 Output Manifest
+
+### **04. Result Analysis**
+All analytical outputs are routed to `Completed_Job/[molecule_name]/`.
+
+*   **`final_ranking_summary.csv`** — Quantitative energy ranking of protomers.
+*   **`summary.txt`** — System-generated filtering report.
+*   **3D Models** — Optimized 3D geometric protomer structures.
+
+---
+<p align="center"><i>System Automated Documentation | SEER v1.0</i></p>
 
 #
 ### **Additional Information**
